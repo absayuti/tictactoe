@@ -15,8 +15,14 @@ This version was ported from the C128 version where the bitmap graphic output ha
 <h3>C128: Commodore 128 BASIC 7.0 version</h3>
 This version was ported from the QBASIC version. Due to the C128 BASIC lack any PROCEDURE/FUNCTION structure, procedures and functions have been replaced with GOSUB-RETURN constucts instead.
 
-<h3>QBASIC: QB64 version</h3>
+<h3>QBASIC: QuickBASIC/QB64/FreeBASIC version</h3>
 This is the initial program, written for QB64, thus should be compatible with any QuickBASIC compatible compiler/interpreter such as FreeBASIC and QBASIC, to name a couple. The program was based on a C program found on the web and another version published as type-in in COMPUTE! magazine. The C program was written as an automated program that put noughts and crosses at random cells for both players. But it was structured and easy to follow. The COMPUTE!'s version was written in Commodore BASIC, thus not that structured but has routines where the computer has some kind of "intelligence" in deciding where to put its noughts or crosses.
 
 This version sort of combined the two said programs with added graphic output routines.
+
+<h3>xcBASIC: XC=BASIC version</h3>
+This version is written for <a href="https://xc-basic.net/">XC=BASIC</a>, a BASIC compiler for Commodore 64. There are actually two versions of the programs, one is based on the C64 version and the other is based on the C128 version. The difference between the two versions is that the former is text (PETSCII) based while the later is bitmap graphic based (like the C128 and QBASIC version).
+
+Being compiled, these versions run significantly faster than their C64 and C128 counterparts.
+
 
