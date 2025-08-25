@@ -573,3 +573,4 @@ Sub save_high_score
   Print #1, hiscore
   Close #1
 End Sub
+
